@@ -1,0 +1,43 @@
+/* shared-styles */
+.btn{
+    background-color: rgb(255, 184, 143);
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+button:hover{
+    background-color: green;
+}
+
+/* header-banner */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;    
+    background-color: #C6E4D6;
+    width: 1280px;
+    margin: auto;
+    border-radius: 24px;
+   
+   
+}
+.banner-content{
+    width: 622px;
+    padding: 80px 100px 80px 100px;
+    margin-top: 100px;
+   
+}
+.banner-image{
+    width: 475px;
+    padding: 80px 100px 80px 100px;
+}
+
+
+
+
