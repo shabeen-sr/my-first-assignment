@@ -1,3 +1,15 @@
+.main{
+    max-width: 1280px;
+    margin: 0 auto;
+   
+}
+.header{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+
 /* shared-styles */
 .btn{
     background-color: rgb(255, 184, 143);
@@ -30,14 +42,52 @@ button:hover{
 .banner-content{
     width: 622px;
     padding: 80px 100px 80px 100px;
-    margin-top: 100px;
-   
+    margin-top: 100px;       
 }
+
 .banner-image{
     width: 475px;
     padding: 80px 100px 80px 100px;
 }
 
+/* Vision of future */
+
+.vision-containers{
+    display: flex;
+    gap: 24px;      
+}
+
+
+.v-conatiner{
+    padding: 30px;
+    border-radius: 16px;
+    width: 410px;
+   
+}
+
+
+.vision-title{
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+
+.vision-des{
+    font-size: 16px;
+    font-weight: normal;
+   
+}
+
+.v-1{
+    background-color: #6a98d8;
+}
+.v-2{
+    background-color: #C6E4D6;
+}
+.v-3{
+    background-color: #FFD55D;
+}
 
 
 
